@@ -179,7 +179,7 @@ header .navbar-nav img {
 
   font-weight: bold;
   text-decoration: underline;
-  text-decoration-thickness: 2px;
+  text-decoration-thickness: 4px;
   text-decoration-color: #478A5C;
 }  
 
@@ -194,6 +194,9 @@ header .navbar-nav img {
 }
 .skill_wrap {
   display: flex;
+
+  background-color: #D0E7D7;
+  border-radius: 25px;
 }
 .content_wrap {
   width: 80%;
@@ -213,6 +216,7 @@ header .navbar-nav img {
   border: 1px solid black;
   border-radius: 25px;
   padding: 20px;
+  background-color: white;
 }
 .content > h4 {
   text-decoration: underline;
@@ -221,7 +225,6 @@ header .navbar-nav img {
   font-size: 20px;
   margin-bottom: 10px;
 }
-
 .skill .content > ul {
   line-height: 20px;
   opacity: 0;
@@ -235,9 +238,10 @@ header .navbar-nav img {
 .contentBtn {
   border: 0;
   background-color: #fff;
+  border-radius: 9999px;
 }
 #content_result {
-  width: 100%;
+  width: 80%;
   opacity: 0;
 }
 #content_result > ul > li {
