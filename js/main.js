@@ -98,5 +98,6 @@ const resultEl = document.querySelector('#content_result')
 const resultBtn = document.querySelector('.contentBtn')
 
 resultBtn.addEventListener('click', function(){
-  resultEl.style.display = 'block';
+  resultEl.style.opacity = '1';
+  resultEl.style.transition = '1s';
 });
