@@ -1,4 +1,3 @@
-// init controller
 const controller = new ScrollMagic.Controller();
 const spyEls = document.querySelectorAll('section.scroll-spy');
 
@@ -68,12 +67,9 @@ imageModal.addEventListener('click', function (e) {
   }
 });
 
-// 현재 연도 표시
-// 날짜 정보를 가진 JS의 Date 객체를 활용
 const thisYear = document.querySelector('.this-year');
 thisYear.textContent = new Date().getFullYear();
 
-// 페이지 최상단으로 이동
 const toTopEl = document.querySelector('#toTop');
 const visualSpanEls = document.querySelectorAll('.visual h1 span');
 
@@ -81,11 +77,6 @@ const visualSpanEls = document.querySelectorAll('.visual h1 span');
 // 브라우저는 문서 전체의 스크롤을 window 기준으로 처리
 // window: 브라우저 창 객체
 window.addEventListener('scroll', function () {
-  // console.log(window.scrollY); // y축 스크롤 위치
-
-  // Quiz: 페이지 스크롤 위치가
-  // 500px을 넘으면 요소를 보이고,
-  // 500px을 넘지 않으면 요소 숨기기!
   if (window.scrollY > 500) {
     toTopEl.style.opacity = '1';
     toTopEl.style.transform = 'translateX(0)';
@@ -101,4 +92,11 @@ window.addEventListener('scroll', function () {
       spanEl.classList.add('animate-flash');
     });
   }
+});
+
+const resultEl = document.querySelector('#content_result')
+const resultBtn = document.querySelector('.contentBtn')
+
+resultBtn.addEventListener('click', function(){
+  resultEl.style.display = 'block';
 });

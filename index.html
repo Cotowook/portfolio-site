@@ -33,183 +33,325 @@
 </head>
 <body>
   <header>
-    <div class="inner"> 
-    
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-    <div class="container-fluid">
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
+    <div class="inner">   
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+      <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" 
+            aria-expanded="false" aria-label="Toggle navigation" 
+            style="margin-top: 10px; margin-bottom: 10px;">
+              <span class="navbar-toggler-icon"></span>
+          </button>
 
-      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div class="navbar-nav">
-          <a class="nav-link" aria-current="page" href="#about">ABOUT</a>
-          <a class="nav-link" href="#project">PROJECT</a>
-          <a class="nav-link" href="#contact">CONTACT</a>
-          <a href="https://github.com/Cotowook" target="_blank" alt="github"><img src="./images/github.png"></a>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent"
+            style="background-color: #fff; height: 90px;">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item"><a class="nav-link active" aria-current="page" href="#">HOME</a></li>
+              <li class="nav-item"><a class="nav-link" href="#about">ABOUT</a></li>
+              <li class="nav-item"><a class="nav-link" href="#skill">SKILL</a></li>
+              <li class="nav-item"><a class="nav-link" href="#project">PROJECT</a></li>
+              <li class="nav-item"><a class="nav-link" href="#contact">CONTACT</a></li>
+              <li><a href="https://github/com" target="_blank">
+                <img src="images/github.png" alt="github" style="margin: 0 auto;"></a>
+              </li>
+            </ul>
+          </div>
         </div>
-      </div>
-    </div>
-    </nav>
-      
+      </nav>
+
     </div>
   </header>
-
   <!-- visual -->
   <section>
       <div class="visual">
         <div class="inner">
           <h1>
-              <span class="visual-content animate-scale">건강한</span> &nbsp;
+              <span class="visual-content animate-scale">건강한</span>&nbsp;
               <span style="color: white;">정신의&nbsp;개발자</span>
-                <br>
-              <span class="visual-name animate-scale">임욱</span><span style="color: white;">입니다.</span> 
+                <br><br>
+              <span class="visual-name animate-scale" style="animation-delay: 0.4s">임욱</span><span style="color: white;">&nbsp;입니다.</span> 
           </h1>
           </div>  
       </div>
   </section>
 
-<!-- ABOUT -->
-<section id="about" class="about scroll-spy"> 
+  <!-- ABOUT -->
+  <section id="about" class="about scroll-spy"> 
+    <div class="inner">
+      <h2 class="title">ABOUT</h2>
+      <div class="about__wrapper">
+        <div class="about__left">
+          <div>
+            <img src="./images/profile.jpg" alt ="프로필">
+          </div>  
+          <div>
+            <h2>임욱 (Lim Wook)</h2>
+            <h2 class="slogan">건강한 신체에 건강한 정신이 깃든다</h2>
+          </div>
+          <div>
+            <ul class="profile">
+              <li>출생: 1999. 8. 13</li>
+              <li>전화번호: 010-1234-5678</li>
+              <li>이메일: cotowook@naver.com</li>
+            </ul>
+          </div>  
+        </div>
+
+        <div class="about__right"> 
+            <div> 
+              <ul>
+                <li><h4>학력</h4></li>
+                <li>18.04 ~ 24.04 00대학교 졸업</li>
+                <li>25.10 ~ 26.04 클라우드(AWS)활용 자바/스프링 개발 부트캠프 수료</li>
+              </ul> 
+            </div>
+            <div>
+              <ul>
+                <li><h4>기술</h4></li>
+                <li><span class="badge text-bg-primary">Java</span><span class="badge text-bg-secondary">C</span><span class="badge text-bg-success">Python</span></li>
+                <li><span class="badge text-bg-danger">HTML</span><span class="badge text-bg-warning">CSS</span><span class="badge text-bg-info">Javascript</span></li>
+                <li><span class="badge text-bg-dark">Oracle</span><span class="badge text-bg-light">MySql</span></li>
+                <li><span class="badge text-bg-info">React</span><span class="badge" style="background-color: #B2D7BD;">SpringBoot</span></li>
+              </ul>
+            </div>
+            <div>
+              <ul>
+                <li><h4>자격증</h4></li>
+                <li>00기사</li>
+                <li>SQL개발자</li>
+              </ul>
+            </div>
+            <div>
+              <ul>
+                <li><h4>프로젝트</h4></li>
+                <li>project1</li>
+                <li>project2</li>
+                <li>project3</li>
+              </ul>
+            </div>
+        </div>    
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILL -->
+  <section id="skill" class="skill scroll-spy">
+    <div class="inner">
+      <h2 class="title">SKILL</h2>
+      
+      <div class="skill_wrap">
+          <div class="content_wrap">
+            <div class="content">
+              <h4>React</h4>
+              <ul>
+                  <li>전역 상태 관리</li>
+                  <li>클라이언트 라우팅</li>
+                  <li>CSR 방식 앱개발</li>
+              </ul>
+            </div>  
+
+          <div class="content">
+            <h4>SpringBoot</h4>
+            <ul>
+                <li>API 설계</li>
+                <li>보안 인증 및 인가</li>
+                <li>데이터베이스 활용 및 성능 최적화</li>
+            </ul>
+          </div>
+
+          <div class="content">
+            <h4>Oracle, MySql</h4>
+            <ul>
+                <li>설계 및 정규화</li>
+                <li>저장 프로시저 및 트랜잭션 관리</li>
+                <li>연동 및 객체 관계 매핑</li>
+            </ul>
+          </div>
+        </div> 
+
+        <div class="content_wrap">
+          <button class="contentBtn"><img alt='arrow_forward'src="./images/icon/arrow_forward.png"></button>
+        </div>
+
+        <div class="content_wrap">
+          <div class="content" id="content_result">
+            <img src="./images/logo.png" >
+            <ul>
+              <li>1. 커뮤니티 및 소셜 기능 중심의 서비스</li>
+              <li>2. 관리 시스템 및 대시보드</li> 
+              <li>3. 이커머스 및 예약/결제 서비스</li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECT -->
+  <section id="project" class="project">
   <div class="inner">
-    <h2 class="title">ABOUT</h2>
-    <div class="about__wrapper">
-      <div class="about__left">
-        <div>
-          <img src="./images/profile.jpg" alt ="프로필">
-        </div>  
-        <div>
-          <h2>임욱 (Lim Wook)</h2>
-          <h2 class="slogan">건강한 신체에 건강한 정신이 깃든다</h2>
+    <h2 class="title">PROJECT</h2>
+      <div class="port">
+      <div class="port__wrap">
+        <div class="port__img">
+          <!-- 이미지 슬라이드 -->
+          <div class="swiper">
+              <!-- Additional required wrapper -->
+              <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide">
+                  <img src="./images/work_1.jpg" alt="산출몰1">
+                </div>
+                <div class="swiper-slide">
+                  <img src="./images/work_2.jpg" alt="산출몰2">
+                </div>
+              </div>
+              <div class="swiper-pagination"></div>
+                <div class="swiper-button-prev"></div>
+              <div class="swiper-button-next"></div>
+            </div>
         </div>
-        <div>
-          <ul class="profile">
-            <li>출생: 1999. 8. 13</li>
-            <li>전화번호: 010-1234-5678</li>
-            <li>이메일: cotowook@naver.com</li>
+      
+        <div class="port__text">
+          <h3>프로젝트1</h3>
+          <ul>
+            <li><span>배경 : </span>00을 하기 위해서 만들었다.</li>
+            <li><span>적용 기술 : </span>HTML, CSS, JS</li>
+            <li><span>개발기간 : </span>25.11.03 ~ 25.11.10</li>
+            <li><span>주요 기능 : </span>00을 00한다.</li>
           </ul>
-        </div>  
+            
+          <div class="btn-group" role="group" aria-label="Basic mixed styles example">
+            <button type="button" class="btn" style="background-color:#7db672;"><a href="https://github.com/Cotowook" target="_blank">GitHub</a></butt  on>
+            <button type="button" class="btn" style="background-color:#D0E7D7;"><a href="https://wook-porfolio.netlify.app" target="_blank">배포링크</a></button>
+          </div>
+        </div>
       </div>
-
-      <div class="about__right"> 
-          <div> 
-            <ul>
-              <li><h4>학력</h4></li>
-              <li>18.04 ~ 24.04 00대학교 졸업</li>
-              <li>25.10 ~ 26.04 클라우드(AWS)활용 자바/스프링 개발 부트캠프 수료</li>
-            </ul> 
-          </div>
-          <div>
-            <ul>
-              <li><h4>기술</h4></li>
-              <li><span class="badge text-bg-primary">Java</span><span class="badge text-bg-secondary">C</span><span class="badge text-bg-success">Python</span></li>
-              <li><span class="badge text-bg-danger">HTML</span><span class="badge text-bg-warning">CSS</span><span class="badge text-bg-info">Javascript</span></li>
-              <li><span class="badge text-bg-dark">Oracle</span><span class="badge text-bg-light">MySql</span></li>
-              <li><span class="badge text-bg-info">React</span><span class="badge" style="background-color: #B2D7BD;">SpringBoot</span></li>
-            </ul>
-          </div>
-          <div>
-            <ul>
-              <li><h4>자격증</h4></li>
-              <li>00기사</li>
-              <li>SQL개발자</li>
-            </ul>
-          </div>
-          <div>
-            <ul>
-              <li><h4>프로젝트</h4></li>
-              <li>project1</li>
-              <li>project2</li>
-              <li>project3</li>
-            </ul>
-          </div>
-      </div>    
-    </div>
-  </div>
-</section>
-
-<!-- PROJECT -->
-<section id="project" class="project">
-<div class="inner">
-  <h2 class="title">PROJECT</h2>
-    <div class="port">
-    <div class="port__wrap">
-      <div class="port__img">
-        <!-- 이미지 슬라이드 -->
-        <div class="swiper">
-            <!-- Additional required wrapper -->
-            <div class="swiper-wrapper">
-              <!-- Slides -->
-              <div class="swiper-slide">
-                <img src="./images/work_1.jpg" alt="산출몰1">
+  
+      <div class="port__wrap">
+        <div class="port__img">
+          <!-- 이미지 슬라이드 -->
+          <div class="swiper">
+              <!-- Additional required wrapper -->
+              <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide">
+                  <img src="./images/work_3.jpg" alt="이미지3">
+                </div>
+                <div class="swiper-slide">
+                  <img src="./images/work_4.jpg" alt="이미지4">
+                </div>
               </div>
-              <div class="swiper-slide">
-                <img src="./images/work_2.jpg" alt="산출몰2">
-              </div>
-            </div>
-            <div class="swiper-pagination"></div>
+              <!-- If we need pagination -->
+              <div class="swiper-pagination"></div>
+                <!-- If we need navigation buttons -->
               <div class="swiper-button-prev"></div>
-            <div class="swiper-button-next"></div>
-          </div>
-      </div>
-    
-      <div class="port__text">
-        <h3>프로젝트1</h3>
-        <ul>
-          <li><span>배경 : </span>00을 하기 위해서 만들었다.</li>
-          <li><span>적용 기술 : </span>HTML, CSS, JS</li>
-          <li><span>개발기간 : </span>25.11.03 ~ 25.11.10</li>
-          <li><span>주요 기능 : </span>00을 00한다.</li>
-        </ul>
-          
-        <div class="btn-group" role="group" aria-label="Basic mixed styles example">
-          <button type="button" class="btn" style="background-color:#7db672;"><a href="https://github.com/Cotowook" target="_blank">GitHub</a></butt  on>
-          <button type="button" class="btn" style="background-color:#D0E7D7;"><a href="https://wook-porfolio.netlify.app" target="_blank">배포링크</a></button>
-        </div>
-      </div>
-    </div>
- 
-    <div class="port__wrap">
-      <div class="port__img">
-        <!-- 이미지 슬라이드 -->
-        <div class="swiper">
-            <!-- Additional required wrapper -->
-            <div class="swiper-wrapper">
-              <!-- Slides -->
-              <div class="swiper-slide">
-                <img src="./images/work_3.jpg" alt="이미지3">
-              </div>
-              <div class="swiper-slide">
-                <img src="./images/work_4.jpg" alt="이미지4">
-              </div>
+              <div class="swiper-button-next"></div>
             </div>
-            <!-- If we need pagination -->
-            <div class="swiper-pagination"></div>
-              <!-- If we need navigation buttons -->
-            <div class="swiper-button-prev"></div>
-            <div class="swiper-button-next"></div>
-          </div>
-      </div>
-    
-      <div class="port__text">
-        <h3>프로젝트2</h3>
-        <ul>
-          <li><span>배경 : </span>00을 하기 위해서 만들었다.</li>
-          <li><span>적용 기술 : </span>HTML, CSS, JS</li>
-          <li><span>개발기간 : </span>25.11.03 ~ 25.11.10</li>
-          <li><span>주요 기능 : </span>00을 00한다.</li>
-        </ul>
-
-        <div class="btn-group" role="group" aria-label="Basic mixed styles example">
-          <button type="button" class="btn" style="background-color: #7db672;"><a href="https://github.com/Cotowook" target="_blank">GitHub</a></butt  on>
-          <button type="button" class="btn" style="background-color: #D0E7D7;"><a href="https://wook-porfolio.netlify.app" target="_blank">배포링크</a></button>
         </div>
-          
+      
+        <div class="port__text">
+          <h3>프로젝트2</h3>
+          <ul>
+            <li><span>배경 : </span>00을 하기 위해서 만들었다.</li>
+            <li><span>적용 기술 : </span>HTML, CSS, JS</li>
+            <li><span>개발기간 : </span>25.11.03 ~ 25.11.10</li>
+            <li><span>주요 기능 : </span>00을 00한다.</li>
+          </ul>
+
+          <div class="btn-group" role="group" aria-label="Basic mixed styles example">
+            <button type="button" class="btn" style="background-color: #7db672;"><a href="https://github.com/Cotowook" target="_blank">GitHub</a></butt  on>
+            <button type="button" class="btn" style="background-color: #D0E7D7;"><a href="https://wook-porfolio.netlify.app" target="_blank">배포링크</a></button>
+          </div>
+          </div>
+        </div>
       </div>
+
+      <div class="port">
+      <div class="port__wrap">
+        <div class="port__img">
+          <!-- 이미지 슬라이드 -->
+          <div class="swiper">
+              <!-- Additional required wrapper -->
+              <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide">
+                  <img src="./images/work_1.jpg" alt="이미지3">
+                </div>
+                <div class="swiper-slide">
+                  <img src="./images/work_2.jpg" alt="이미지4">
+                </div>
+              </div>
+              <!-- If we need pagination -->
+              <div class="swiper-pagination"></div>
+                <!-- If we need navigation buttons -->
+              <div class="swiper-button-prev"></div>
+              <div class="swiper-button-next"></div>
+            </div>
+        </div>
+      
+        <div class="port__text">
+          <h3>프로젝트3</h3>
+          <ul>
+            <li><span>배경 : </span>00을 하기 위해서 만들었다.</li>
+            <li><span>적용 기술 : </span>HTML, CSS, JS</li>
+            <li><span>개발기간 : </span>25.11.03 ~ 25.11.10</li>
+            <li><span>주요 기능 : </span>00을 00한다.</li>
+          </ul>
+
+          <div class="btn-group" role="group" aria-label="Basic mixed styles example">
+            <button type="button" class="btn" style="background-color: #7db672;"><a href="https://github.com/Cotowook" target="_blank">GitHub</a></butt  on>
+            <button type="button" class="btn" style="background-color: #D0E7D7;"><a href="https://wook-porfolio.netlify.app" target="_blank">배포링크</a></button>
+          </div>
+        </div>
+      </div>
+
+      <div class="port__wrap">
+        <div class="port__img">
+          <!-- 이미지 슬라이드 -->
+          <div class="swiper">
+              <!-- Additional required wrapper -->
+              <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide">
+                  <img src="./images/work_3.jpg" alt="이미지3">
+                </div>
+                <div class="swiper-slide">
+                  <img src="./images/work_4.jpg" alt="이미지4">
+                </div>
+              </div>
+              <!-- If we need pagination -->
+              <div class="swiper-pagination"></div>
+                <!-- If we need navigation buttons -->
+              <div class="swiper-button-prev"></div>
+              <div class="swiper-button-next"></div>
+            </div>
+        </div>
+      
+        <div class="port__text">
+          <h3>프로젝트4</h3>
+          <ul>
+            <li><span>배경 : </span>00을 하기 위해서 만들었다.</li>
+            <li><span>적용 기술 : </span>HTML, CSS, JS</li>
+            <li><span>개발기간 : </span>25.11.03 ~ 25.11.10</li>
+            <li><span>주요 기능 : </span>00을 00한다.</li>
+          </ul>
+
+          <div class="btn-group" role="group" aria-label="Basic mixed styles example">
+            <button type="button" class="btn" style="background-color: #7db672;"><a href="https://github.com/Cotowook" target="_blank">GitHub</a></butt  on>
+            <button type="button" class="btn" style="background-color: #D0E7D7;"><a href="https://wook-porfolio.netlify.app" target="_blank">배포링크</a></button>
+          </div>
+        </div>
+        </div>
+      </div>
+
     </div>
   </div>
-</div>
-</section>
+  </section>
+
+
 
   <!-- CONTACT -->
   <section id="contact" class="contact scroll-spy">
@@ -219,23 +361,7 @@
         <ul>
           <li>010-1234-5678</li>
           <li>cotowook@naver.com</li>
-          <li>
-            <a href="https://github.com/Cotowook" target="_blank">github.com/Cotowook</a>
-          </li>
-        </ul>
-      </div>
-      <div class="contact__sns">
-        <ul>
-          <li>
-            <a href="#인스타그램주소" target="_blank">
-              <img src="images/github.png" alt="깃허브">
-            </a>
-          </li>
-          <!-- <li>
-            <a href="#유튜브주소" target="_blank">
-              <img src="images/icon/icon_youtube.png" alt="유튜브">
-            </a>
-          </li> -->
+          <li><a href="https://github.com/Cotowook" target="_blank">github.com/Cotowook</a></li>
         </ul>
       </div>
     </div>
