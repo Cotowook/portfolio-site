@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wook | Full stack Developer</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"/>
+  <link rel="stylesheet" href="./css/main.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">  
+  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/ScrollMagic.min.js" integrity="sha512-8E3KZoPoZCD+1dgfqhPbejQBnQfBXe8FuwL4z/c8sTrgeDMFEnoyTlH3obB4/fV+6Sg0a0XF+L/6xS4Xx1fUEg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>  
+  <script defer src="./js/main.js"></script>
+   <!-- SWIPER JS-->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+
+  <!-- 파비콘 적용 -->
+  <!-- favicon.ico 은 프로젝트 최상위 폴더 경로에 포함시키면 자동으로 적용 
+   최상위 폴더 경로에 저장하기 싫다면 <link> 사용 -->
+  <link rel="icon" href="./favicon.ico" type="image/x-icon">
+  <!-- https://iconifier.net  -->
+
+  <!-- reset.css 적용 -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.2/reset.min.css">   
+
+  <!-- 구글 머티리얼 아이콘 연결 -->
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+  
+</head>
+<body>
+  <header>
+    <div class="inner"> 
+    
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link" aria-current="page" href="#about">ABOUT</a>
+          <a class="nav-link" href="#project">PROJECT</a>
+          <a class="nav-link" href="#contact">CONTACT</a>
+          <a href="https://github.com/Cotowook" target="_blank" alt="github"><img src="./images/github.png"></a>
+        </div>
+      </div>
+    </div>
+    </nav>
+      
+    </div>
+  </header>
+
+  <!-- visual -->
+  <section>
+      <div class="visual">
+        <div class="inner">
+          <h1>
+              <span class="purple animate-scale">도전</span><span>하는</span>&nbsp;<span>개발자</span>
+              <span class="animate-scale">임욱</span><span>입니다.</span>
+          </h1>
+          </div>  
+      </div>
+  </section>
+
+<!-- ABOUT -->
+<section id="about" class="about scroll-spy"> 
+  <div class="inner">
+    <h2 class="title">ABOUT</h2>
+    <div class="about__wrapper">
+      <div class="about__left">
+        <div>
+          <img src="./images/profile.jpg" alt ="프로필">
+        </div>  
+        <div>
+          <h2>임욱 (Lim Wook)</h2>
+          <h2 class="slogan">건강하고 힘찬 개발자</h2>
+        </div>
+        <div>
+          <ul class="profile">
+            <li>출생: 1999. 8. 13</li>
+            <li>전화번호: 010-1234-5678</li>
+            <li>이메일: cotowook@naver.com</li>
+          </ul>
+        </div>  
+      </div>
+
+      <div class="about__right"> 
+          <div> 
+            <ul>
+              <li><h4>학력</h4></li>
+              <li>18.04 ~ 24.04 00대학교 졸업</li>
+              <li>25.10 ~ 26.04 클라우드(AWS)활용 자바/스프링 개발 부트캠프 수료</li>
+            </ul> 
+          </div>
+          <div>
+            <ul>
+              <li><h4>기술</h4></li>
+              <li><span class="badge text-bg-primary">Java</span><span class="badge text-bg-secondary">C</span><span class="badge text-bg-success">Python</span></li>
+              <li><span class="badge text-bg-danger">HTML</span><span class="badge text-bg-warning">CSS</span><span class="badge text-bg-info">Javascript</span></li>
+              <li><span class="badge text-bg-dark">Oracle</span><span class="badge text-bg-light">MySql</span></li>
+              <li><span class="badge text-bg-info">React</span><span class="badge text-bg-success">SpringBoot</span></li>
+            </ul>
+          </div>
+          <div>
+            <ul>
+              <li><h4>자격증</h4></li>
+              <li>00기사</li>
+              <li>SQL개발자</li>
+            </ul>
+          </div>
+          <div>
+            <ul>
+              <li><h4>프로젝트</h4></li>
+              <li>project1</li>
+              <li>project2</li>
+              <li>project3</li>
+            </ul>
+          </div>
+      </div>    
+    </div>
+  </div>
+</section>
+
+<!-- PROJECT -->
+<section id="project" class="project">
+<div class="inner">
+  <h2 class="title">PROJECT</h2>
+    <div class="port">
+    <div class="port__wrap">
+      <div class="port__img">
+        <!-- 이미지 슬라이드 -->
+        <div class="swiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+              <!-- Slides -->
+              <div class="swiper-slide">
+                <img src="./images/work_1.jpg" alt="산출몰1">
+              </div>
+              <div class="swiper-slide">
+                <img src="./images/work_2.jpg" alt="산출몰2">
+              </div>
+            </div>
+            <div class="swiper-pagination"></div>
+              <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+          </div>
+      </div>
+    
+      <div class="port__text">
+        <h3>프로젝트1</h3>
+        <ul>
+          <li><span>배경 : </span>00을 하기 위해서 만들었다.</li>
+          <li><span>적용 기술 : </span>HTML, CSS, JS</li>
+          <li><span>개발기간 : </span>25.11.03 ~ 25.11.10</li>
+          <li><span>주요 기능 : </span>00을 00한다.</li>
+          <li><span>GitHub : </span><a href="https://github.com/Cotowook" target="_blank">https://github.com/Cotowook/webgame</a></li>
+          <li><span>URL : </span><a href="https://wook-porfolio.netlify.app" target="_blank">https://wook-porfolio.netlify.app</a></li>
+        </ul>
+          <div class="btn-group">
+          <a href="javascript:void(0)" class="btn btn-readme">README</a>
+          <a href="javascript:void(0)" class="btn btn-modal-image" data-image-src="./images/work_1.jpg">이미지</a>
+        </div>
+      </div>
+    </div>
+ 
+    <div class="port__wrap">
+      <div class="port__img">
+        <!-- 이미지 슬라이드 -->
+        <div class="swiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+              <!-- Slides -->
+              <div class="swiper-slide">
+                <img src="./images/work_3.jpg" alt="이미지3">
+              </div>
+              <div class="swiper-slide">
+                <img src="./images/work_4.jpg" alt="이미지4">
+              </div>
+            </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+              <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+          </div>
+      </div>
+    
+      <div class="port__text">
+        <h3>프로젝트2</h3>
+        <ul>
+          <li><span>주요 기능 : </span>주요 기능 설명</li>
+          <li><span>적용 기술 : </span>HTML, CSS, JS, React, Java, Spring Boot</li>
+          <li><span>GitHub : </span><a href="https://github.com/Cotowook" target="_blank">https://github.com/Cotowook</a></li>
+          <li><span>URL : </span><a href="https://wook-porfolio.netlify.app" target="_blank">https://wook-porfolio.netlify.app</a></li>
+        </ul>
+          <div class="btn-group">
+          <a href="javascript:void(0)" class="btn btn-readme">README</a>
+          <a href="javascript:void(0)" class="btn btn-modal-image" data-image-src="./images/work_3.jpg">이미지</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="contact scroll-spy">
+    <div class="inner">
+      <h2 class="title">CONTACT</h2>
+      <div class="contact__info">
+        <ul>
+          <li>010-1234-5678</li>
+          <li>cotowook@naver.com</li>
+          <li>
+            <a href="https://github.com/Cotowook" target="_blank">github.com/Cotowook</a>
+          </li>
+        </ul>
+      </div>
+      <div class="contact__sns">
+        <ul>
+          <li>
+            <a href="#인스타그램주소" target="_blank">
+              <img src="images/github.png" alt="깃허브">
+            </a>
+          </li>
+          <!-- <li>
+            <a href="#유튜브주소" target="_blank">
+              <img src="images/icon/icon_youtube.png" alt="유튜브">
+            </a>
+          </li> -->
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="inner">
+      <p class="copyright">
+        &copy; <span class="this-year"></span>
+        Lim Wook. All Rights Reserved.
+      </p>
+    </div>
+  </footer>
+
+  <!-- IMAGE MODAL -->
+  <div id="imageModal">
+    <div class="modal-content">
+      <div class="modal-header">이미지
+        <span class="material-symbols-outlined btn-close">close</span>
+      </div>
+      <div class="modal-body">
+        <!-- 1픽셀 투명한 GIF -->
+        <img src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" alt="이미지">
+      </div>
+    </div>
+  </div>
+
+  <!-- SCROLL TO TOP -->
+  <div id="toTop">
+    <a href="#">
+      <span class="material-symbols-outlined" style="color: black;">arrow_upward</span>
+    </a>
+  </div>
+</body>
+</html>
