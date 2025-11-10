@@ -333,6 +333,11 @@ header .navbar-nav img {
   font-weight: bold;
 }
 
+.btn-group a:hover {
+  color: white !important;
+  background-color: #57A871 !important ;
+}
+
 /* CONTACT */
 .contact {
   padding: 200px 0;
@@ -462,7 +467,7 @@ footer .copyright {
 
 @media screen and (max-width: 767px) {
   .inner {
-    width: 90%;
+    width: 95%;
   }
   .title {
     font-size: 30px;
@@ -543,12 +548,13 @@ footer .copyright {
     padding: 20px;
   }
   .project .port .btn-group {
-    max-height: 40px;
+    max-height: 45px;
     margin: 0 auto;
     width: 100%;
   }
   .project .port .btn-group a {
-    font-size: 15px;
+    font-size: 10px;
+    overflow-x: scroll;
   }
   .contact {
     padding: 100px 0;
