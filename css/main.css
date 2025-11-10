@@ -554,7 +554,7 @@ footer .copyright {
   }
   .project .port .btn-group a {
     font-size: 10px;
-    overflow-x: scroll;
+    overflow-x: hidden;
   }
   .contact {
     padding: 100px 0;
