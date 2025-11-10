@@ -329,6 +329,14 @@ header .navbar-nav img {
 .project .port .port__text li span {
   font-weight: bold;
 }
+.portBtn_green {
+  background-color:#7db672;
+}
+
+.portBtn_Lgreen {
+  background-color:#D0E7D7;
+}
+
 
 /* CONTACT */
 .contact {
