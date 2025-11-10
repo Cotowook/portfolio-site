@@ -467,7 +467,9 @@ footer .copyright {
 #toTop .material-symbols-outlined {
   line-height: 42px;
 }
-
+#toTop:hover {
+  background-color: #aaa;
+}
 
 @media screen and (max-width: 767px) {
   .inner {
