@@ -241,14 +241,12 @@ header .navbar-nav img {
   border-radius: 9999px;
 }
 #content_result {
-  width: 80%;
+  width: 90%;
   opacity: 0;
+  margin: 0 auto;
 }
 #content_result > ul > li {
   line-height: 30px;
-}
-#content_result img {
-  margin: 0 auto;
 }
 .contentBtn {
   border-radius: 9999px;
