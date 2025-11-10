@@ -240,6 +240,10 @@ header .navbar-nav img {
   background-color: #fff;
   border-radius: 9999px;
 }
+.contentBtn:hover {
+  background-color: #57A871;
+}
+
 #content_result {
   width: 90%;
   opacity: 0;
